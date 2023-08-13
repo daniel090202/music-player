@@ -1,0 +1,12 @@
+/* Universal Attributes */
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Mulish', sans-serif; 
+    box-sizing: border-box;
+}
