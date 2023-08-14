@@ -1,3 +1,11 @@
+/* Universal Variables */
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --text-color: #333333;
+}
+
 /* Universal Attributes */
 
 * {

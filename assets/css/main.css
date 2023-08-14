@@ -1,4 +1,47 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .dashboard {
-    padding: 16px 16px 14px;
-    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #DEBACE;
+}
+
+.dashboard__header h4 {
+    margin: 4px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.dashboard__header h2 {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #F9F3EE;
+}
+
+.dashboard__cd-thumb {
+    margin: 20px auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard__control {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px 0;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--white-color);
 }
